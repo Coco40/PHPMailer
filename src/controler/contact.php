@@ -8,11 +8,11 @@ $message = "coucou";
 
 sendEmail($object,$name,$email,$message);
 
-echo $twig->render('contact.html',
-array(
-'objet' => $object,
-'nom' => $name,
-'email' => $email,
-'message' => $message,
-)
-);
+// echo $twig->render('contact.html',
+// array(
+// 'objet' => $object,
+// 'nom' => $name,
+// 'email' => $email,
+// 'message' => $message,
+// )
+// );

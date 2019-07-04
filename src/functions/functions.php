@@ -10,10 +10,10 @@ function sendEmail($object,$name,$email,$message)
 
 {
 $mail = new PHPMailer(true);
-$object = $_POST['objet'];
-$name = $_POST['nom'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+// $object = $_POST['objet'];
+// $name = $_POST['nom'];
+// $email = $_POST['email'];
+// $message = $_POST['message'];
 
 try {
     //Server settings
